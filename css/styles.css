@@ -1,1 +1,33 @@
-/*comment/*
+*
+{
+  margin: auto;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+header
+{
+  display: block;
+  background-color:#39cf99;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+
+header h1
+{
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+nav
+{
+  display: inline-block;
+  float: right;
+}
+
+div.menu a
+{
+  display: inline;
+  padding: 4px 10px;
+}
