@@ -30,4 +30,40 @@ div.menu a
 {
   display: inline;
   padding: 4px 10px;
+  font-size: 1.2em;
+}
+
+main
+{
+  width: 50%;
+}
+
+[alt="wall of cats"]
+{
+  width: 55%;
+  height: 50%;
+  float: left;
+}
+
+.welcome
+{
+  display: block;
+  background-color:#26547c;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+section.welcome h1
+{
+  float: right;
+  display: inline-block;
+  color: white;
+  font-size: 2.4em;
+  padding-top: 40px;
+}
+
+.cats
+{
+  display: block;
+  background-color: #FFD166;
 }
