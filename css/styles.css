@@ -86,3 +86,15 @@ p
 .products{
   background-color: #F2F2F2;
 }
+
+.kitties
+{
+  width: 30%;
+  height: 30%;
+  border: 3px solid black;
+  margin: 5px 10px;
+}
+
+.benefits{
+  background-color: #26547c;
+}
