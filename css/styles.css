@@ -38,6 +38,14 @@ main
   width: 50%;
 }
 
+.cats,
+.products,
+.benefits
+{
+  display: block;
+  padding: 45px 30px;
+}
+
 [alt="wall of cats"]
 {
   width: 55%;
@@ -47,23 +55,34 @@ main
 
 .welcome
 {
-  display: block;
   background-color:#26547c;
   overflow: hidden;
   padding-bottom: 5px;
 }
 
-section.welcome h1
+#meowcome
 {
+  display: inline-block;
   float: right;
   display: inline-block;
   color: white;
   font-size: 2.4em;
   padding-top: 40px;
+  text-align: center;
+  margin: 0 5px;
 }
 
 .cats
 {
-  display: block;
   background-color: #FFD166;
+}
+
+p
+{
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+.products{
+  background-color: #F2F2F2;
 }
