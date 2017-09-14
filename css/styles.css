@@ -5,19 +5,18 @@
   font-family: Helvetica, sans-serif;
 }
 
-header
+header,
+footer
 {
-  display: block;
   background-color:#39cf99;
-  color: white;
   padding: 20px;
-  overflow: hidden;
 }
 
 header h1
 {
   display: inline-block;
   font-size: 1.1em;
+  color: white;
 }
 
 nav
@@ -112,4 +111,10 @@ p
 {
   display: inline-block;
   padding: 0 110px 20px;
+}
+
+footer
+{
+text-align: right;
+font-size: 1.2em;
 }
